@@ -1,1 +1,84 @@
-.elementor-kit-3{--e-global-color-primary:#6200EE;--e-global-color-secondary:#6200EE;--e-global-color-text:#444444;--e-global-color-accent:#6200EE;--e-global-typography-primary-font-family:"Geomanist";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Geomanist";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Geomanist";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Geomanist";--e-global-typography-accent-font-weight:500}.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px}.elementor-widget:not(:last-child){margin-bottom:20px}{}h1.entry-title{display:var(--page-title-display)}.site-header{padding-right:0;padding-left:0}@media(max-width:1024px){.elementor-section.elementor-section-boxed>.elementor-container{max-width:1024px}}@media(max-width:767px){.elementor-section.elementor-section-boxed>.elementor-container{max-width:767px}}@font-face{font-family:geomanist;font-style:normal;font-weight:400;font-display:auto;src:url(https://sites.wapa.tv/missuniverse/wp-content/uploads/sites/20/2021/07/Geomanist-Regular.woff2) format('woff2'),url(https://sites.wapa.tv/missuniverse/wp-content/uploads/sites/20/2021/07/Geomanist-Regular.woff) format('woff')}
+.elementor-kit-3{--e-global-color-primary:#6200EE;--e-global-color-secondary:#6200EE;--e-global-color-text:#444444;--e-global-color-accent:#6200EE;--e-global-typography-primary-font-family:"Geomanist";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Geomanist";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Geomanist";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Geomanist";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header{padding-right:0px;padding-left:0px;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start custom CSS */body.interstatial-set .dfp-transitional-wrapper,.hide{display:none!important}
+.dfp-transitional-wrapper iframe{position:fixed;z-index:99999;width:100%!important;height:100%!important;top:0;margin:0 0;background:rgba(0,0,0,.7)}
+.dfp-transitional-wrapper iframe div>div{width:auto!important;height:auto!important;}
+div.gallery{display: flex;flex-direction: unset;flex-wrap: wrap;}figure.gallery-item{padding:5px;display:block;width:32%;}
+#div-gpt-ad-7339863-3,#div-gpt-ad-7339863-2 {max-width: 300px;overflow: hidden;}
+.style2.elementor-posts--thumbnail-top .elementor-post__thumbnail__link{
+    margin-bottom: 0px!important;
+}
+.style2 .elementor-post__title{   margin:10px 0px!important;}
+.style2 .elementor-post__text {
+    position: absolute;
+    background: #0000009e;
+    bottom: 0px;
+}
+
+.jeg_block_heading h3 strong{
+    color:#6200EE!important;
+    
+}
+.jeg_post_category a{
+    background:#6200EE!important;
+}
+.epic-owl-stage-outer,.jeg_block_container {
+    border: solid 0px;
+    border-radius: 10px;
+    overflow:hidden;
+    /*box-shadow: 0 1.875rem 3.75rem -1.875rem rgb(0 0 0 / 50%);*/
+}
+.postContent a {
+    color: #2e2e2e!important;
+}
+.blocks-gallery-item__caption a {
+    color: #ffffff!important;
+    font-weight: 600;
+    font-size: 1em!important;
+}
+#vSlider_googima {
+    z-index: 99;
+    position: static;
+}
+.pp-tiled-post {
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 480px){
+    .elementor-slide-button {
+    display: none!important;
+}
+    .elementor-slides .swiper-slide-bg {
+    background-position: 0%!important;
+    }
+.jeg_block_heading, .jeg_breakingnews, .jeg_heropost_1 .jeg_pl_sm_2, .jeg_heropost_1 .jeg_postbig, .jeg_pl_lg_box, .jeg_pl_md_box, .jeg_postblock, .jeg_postblock_14 .row:last-child>div[class*=col-]:not(:last-child) .jeg_pl_md_box, .jeg_postblock_15 .row:last-child>div[class*=col-]:not(:last-child) .jeg_pl_md_box, .jeg_slider_wrapper, .jeg_video_playlist {
+    margin-bottom: 20px;
+    overflow: hidden;}
+  
+.jw-flag-touch.jw-flag-floating .jw-wrapper {
+    -webkit-animation: none;
+    animation: none;
+    top: auto!important;
+    right: 0;
+    margin-top: 62px;
+    bottom: 0!important;
+    max-width: 70%!important;
+    max-height: none;
+}
+#vSlider_ad div{
+	min-height:200px!important;
+	}
+	#vSlider > div.jw-aspect.jw-reset{
+    display: block!important;
+}
+}
+#vSlider > div.jw-aspect.jw-reset{
+    display: none!important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Geomanist';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://sites.wapa.tv/missuniverse/wp-content/uploads/sites/20/2021/07/Geomanist-Regular.woff2') format('woff2'),
+		url('https://sites.wapa.tv/missuniverse/wp-content/uploads/sites/20/2021/07/Geomanist-Regular.woff') format('woff');
+}
+/* End Custom Fonts CSS */
