@@ -15,7 +15,7 @@
 					}
 				};
 				var document = window.document;
-				var url = 'https://sites.wapa.tv/dm-sso-endpoint/1633026689/?dm_action=domainmap-check-login-status&domain=2021.muniversepr.com';
+				var url = 'https://sites.wapa.tv/dm-sso-endpoint/1633040682/?dm_action=domainmap-check-login-status&domain=2021.muniversepr.com';
 				var iframe = document.createElement('iframe');
 				(iframe.frameElement || iframe).style.cssText =
 						"width: 0; height: 0; border: 0";
@@ -155,6 +155,9 @@ body #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
              .addService(googletag.pubads());
 		googletag.defineOutOfPageSlot('/29989665/mupr', 'div-gpt-ad-7339863-4')
              .addService(googletag.pubads());
+		googletag.defineSlot('/29989665/mupr', [[728,90],[320,50],[970,90]], 'div-gpt-ad-7339863-5')
+             .defineSizeMapping(mapping1)
+             .addService(googletag.pubads());
 
     googletag.pubads().enableSingleRequest();
     googletag.pubads().collapseEmptyDivs();
@@ -165,15 +168,6 @@ body #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
   });
 </script>
 
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-<script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "115701a9-14cf-4260-87a3-1b2453b1c753",
-    });
-  });
-</script>
 <link rel="icon" href="/wp-content/uploads/2020/12/unnamed-60x60.jpg" sizes="32x32">
 <link rel="icon" href="/wp-content/uploads/2020/12/unnamed-300x300.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="/wp-content/uploads/2020/12/unnamed-300x300.jpg">
@@ -381,7 +375,7 @@ body #wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
 </div>
 </div>
 </div>
-<div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-2555032a" data-id="2555032a" data-element_type="column">
+ <div class="elementor-column elementor-col-12 elementor-top-column elementor-element elementor-element-2555032a" data-id="2555032a" data-element_type="column">
 <div class="elementor-widget-wrap elementor-element-populated">
 <div class="elementor-element elementor-element-13677cac elementor-widget elementor-widget-image" data-id="13677cac" data-element_type="widget" data-widget_type="image.default">
 <div class="elementor-widget-container">
@@ -692,6 +686,76 @@ function myFunction(){document.getElementById("ad").className="hide"}function tr
 <script src="https://cdn.jwplayer.com/libraries/HvjxLtQp.js"></script>
 <script>jwplayer("vSlider").setup({width:"100%",floating:{dismissible:!0,mode:"always"},advertising:{outstream:!0,endstate:"close",adscheduleid:"oja4CZPM",autoplayadsmuted:!0,client:"googima",schedule:{"adbreak-preroll":{offset:"pre",tag:"https://pubads.g.doubleclick.net/gampad/live/ads?iu=/29989665/mupr&description_url=[placeholder]&env=vp&impl=s&correlator=&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=640x480&unviewed_position_start=1"}}}});
 </script>
+<style>.bottom-bar {
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333333;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.bottom-bar__content {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-bar__content > * {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-bar__text {
+  padding-right: 10px;
+}
+
+.bottom-bar__close {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 2em;
+}</style>
+<script>
+// 1st Way
+document.addEventListener("click", function(e) {
+  if (e.target.className.indexOf("bottom-bar__close") !== -1) {
+    document.body.removeChild(e.target.parentElement.parentElement);
+
+    // Showcase .remove(); (not supported in IE)
+  }
+});
+
+// 2nd way
+// document.addEventListener("click", function(e) {
+//   if (e.target.getAttribute("data-bottombar-close") !== null) {
+//     const bottomBarName = e.target.getAttribute("data-bottombar-close");
+//     document.body.removeChild(
+//       document.body.querySelector(
+//         ".bottom-bar[data-bottombar='" + bottomBarName + "']"
+//       )
+//     );
+//   }
+// });
+
+</script>
+<div class="bottom-bar" data-bottombar="cookieMessage">
+<div class="bottom-bar__content">
+<div class="bottom-bar__text">
+<div id="div-gpt-ad-7339863-5">
+<script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-7339863-5'); });
+  </script>
+</div>
+</div>
+<button class="bottom-bar__close" type="button" data-bottombar-close="cookieMessage">&times;</button>
+</div>
+</div>
 <link rel="stylesheet" id="e-animations-css" href="/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
 <script type="text/javascript" src="/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js" id="smush-lazy-load-js"></script>
@@ -716,6 +780,6 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 <script type="text/javascript" src="/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js" id="pro-preloaded-elements-handlers-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js" id="preloaded-modules-js"></script>
 <script type="text/javascript" src="/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js" id="e-sticky-js"></script>
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-411d96e1b7554690a99","applicationID":"1472377406","transactionName":"M1xSN0EADUFYUEZfWAoWZRFaTgpcXVZKGEcMSQ==","queueTime":0,"applicationTime":723,"atts":"HxtRQQkaHk8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-411d96e1b7554690a99","applicationID":"1472377406","transactionName":"M1xSN0EADUFYUEZfWAoWcQBHCAxcFlpcUlIc","queueTime":0,"applicationTime":699,"atts":"HxtRQQkaHk8=","errorBeacon":"bam.nr-data.net","agent":""}</script>
 </body>
 </html>
